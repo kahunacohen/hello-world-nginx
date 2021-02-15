@@ -1,4 +1,4 @@
-FROM nginx:latest-alpine
+FROM nginx
 RUN apt-get update && \
   apt-get install -y vim
 RUN rm /etc/nginx/conf.d/default.conf
